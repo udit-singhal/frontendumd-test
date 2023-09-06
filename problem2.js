@@ -55,7 +55,7 @@ function toggleSelection(image) {
 function createImageElement(image) {
     const img = document.createElement('img');
     img.classList.add('image');
-    img.src = `cats_vs_dogs/${image}`;
+    img.src = `${image}`;
     img.alt = image;
     
     img.addEventListener('click', () => {
